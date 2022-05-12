@@ -13,3 +13,4 @@ Using Jenkyll and alembic template.
 {% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
 {% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
 
+{% include figure.html image="/uploads/headshot.png" caption="Check out my photo" %}
