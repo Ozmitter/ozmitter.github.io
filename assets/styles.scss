@@ -4,6 +4,7 @@ styles: true
 ---
 
 .typeset #austin-on-devops-programming-it {
+  background-color: rgba(211, 219, 213, 0.9);
   border-radius: 10% / 50%;
   border-style: outset;
   border-color: black;
@@ -14,10 +15,6 @@ styles: true
   -webkit-animation: blink 3s infinite;
   -moz-animation:    blink 3s infinite;
   -ms-animation:     blink 3s infinite;
-}
-
-.typeset .header.nav.list--nav.a {
-  color: blue; 
 }
 
 // https://stackoverflow.com/questions/25669050/infinite-border-color-loop
