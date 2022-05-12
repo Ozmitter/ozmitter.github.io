@@ -3,7 +3,7 @@ title: Greetings!
 feature_image: "https://ozmitter.github.io/bannerRE.jpg"
 feature_text: |
   ##      Austin on DevOps, Programming, IT.
-  {% include site-search.html %}
+  {% include _includes/site-search.html %}
 ---
 
 Here you'll find some of my past projects and articles, with some photography and traveling posts.
