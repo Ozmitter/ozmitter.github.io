@@ -1,5 +1,5 @@
 ---
-title: Greetings, I will be posting here soon.
+title: Hello
 feature_image: "https://ozmitter.github.io/bannerRE.jpg"
 feature_text: |
   ##      Austin on DevOps, Programming, IT.
@@ -8,3 +8,5 @@ feature_text: |
 Some tests
 
 {% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
+{% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
+
