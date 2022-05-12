@@ -19,10 +19,10 @@ styles: true
 
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects
+  -webkit-text-decoration-skip: objects;
   color: blue;
   text-decoration: none;
-  transition: color .1s, background-color .1s
+  transition: color .1s, background-color .1s;
 }
 
 // https://stackoverflow.com/questions/25669050/infinite-border-color-loop
