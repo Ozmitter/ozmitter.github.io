@@ -11,10 +11,31 @@ styles: true
   border-size: 1px;
   border-width: thick;
   padding: 3%;
+  
+  -webkit-animation: blink 1s infinite;
+  -moz-animation:    blink 1s infinite;
+  -ms-animation:     blink 1s infinite;
 }
 
 .item--nav {
   color: blue; 
+}
+
+// https://stackoverflow.com/questions/25669050/infinite-border-color-loop
+@-webkit-keyframes blink {
+        0%   { border-color:red; }
+        50%  { border-color:green;}
+        100% { border-color:red; }
+}
+@-moz-keyframes blink {
+        0%   { border-color:red; }
+        50%  { border-color:green;}
+        100% { border-color:red; }
+}
+@-ms-keyframes blink {
+        0%   { border-color:red; }
+        50%  { border-color:green;}
+        100% { border-color:red; }
 }
 
 @import "alembic";
