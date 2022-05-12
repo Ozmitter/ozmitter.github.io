@@ -5,8 +5,6 @@ feature_text: |
   ##      Austin on DevOps, Programming, IT.
 ---
 
-{% include site-search.html %}
-
 Here you'll find some of my past projects and articles, with some photography and traveling posts.
 
 {% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
