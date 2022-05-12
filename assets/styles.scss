@@ -12,9 +12,9 @@ styles: true
   border-width: thick;
   padding: 3%;
   
-  -webkit-animation: blink 1s infinite;
-  -moz-animation:    blink 1s infinite;
-  -ms-animation:     blink 1s infinite;
+  -webkit-animation: blink 0.2s infinite;
+  -moz-animation:    blink 0.2s infinite;
+  -ms-animation:     blink 0.2s infinite;
 }
 
 .item--nav {
