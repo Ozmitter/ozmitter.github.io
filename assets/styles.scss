@@ -17,6 +17,14 @@ styles: true
   -ms-animation:     blink 3s infinite;
 }
 
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects
+  color: blue;
+  text-decoration: none;
+  transition: color .1s, background-color .1s
+}
+
 // https://stackoverflow.com/questions/25669050/infinite-border-color-loop
 @-webkit-keyframes blink {
         0%   { border-color:#0fa32a; }
