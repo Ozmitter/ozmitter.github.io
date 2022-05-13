@@ -31,35 +31,45 @@ styles: true
 }
 
 li.item--current a {
- color: black; 
+  color: black; 
 }
 
 .item a {
-    color: #b39954;
-    text-decoration: none;
-    transition: color .1s, background-color .1s
+  color: #b39954;
+  text-decoration: none;
+  transition: color .1s, background-color .1s
 }
 
 .item a:hover,a:active,a:focus {
-    color: #dbb03d;
-    text-decoration: none
+  color: #dbb03d;
+  text-decoration: none
 }
 
 // https://stackoverflow.com/questions/25669050/infinite-border-color-loop
 @-webkit-keyframes blink {
-        0%   { border-color:#0fa32a; }
-        50%  { border-color:green;}
-        100% { border-color:#0fa32a; }
+   0%   { border-color:#0fa32a; }
+   50%  { border-color:green;}
+   100% { border-color:#0fa32a; }
 }
 @-moz-keyframes blink {
-        0%   { border-color:#0fa32a; }
-        50%  { border-color:green;}
-        100% { border-color:#0fa32a; }
+   0%   { border-color:#0fa32a; }
+   50%  { border-color:green;}
+   100% { border-color:#0fa32a; }
 }
 @-ms-keyframes blink {
-        0%   { border-color:#0fa32a; }
-        50%  { border-color:green;}
-        100% { border-color:#0fa32a; }
+   0%   { border-color:#0fa32a; }
+   50%  { border-color:green;}
+   100% { border-color:#0fa32a; }
+}
+
+button.button--nav {
+   outline: solid 0.12rem black;
+   color: blue;
+}
+
+button.button--nav:hover {
+   outline: solid 0.12rem black;
+   color: #0a367d;
 }
 
 footer.footer {
