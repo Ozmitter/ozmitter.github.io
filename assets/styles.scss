@@ -63,12 +63,12 @@ li.item--current a {
 }
 
 button.button--nav {
-   outline: solid 0.12rem black;
    color: blue;
 }
 
-button.button--nav:hover {
+button.button--nav:hover, button.button--nav:focus{
    outline: solid 0.12rem black;
+   outline-offset: -0.12rem;
    color: #0a367d;
 }
 
