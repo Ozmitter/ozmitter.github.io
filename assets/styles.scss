@@ -42,8 +42,9 @@ a {
         100% { border-color:#0fa32a; }
 }
 
-.typeset .footer {
-  background-color: #2f332d;
+.footer {
+  background: #2f332d;
+  color: white;
 }
 
 @import "alembic";
