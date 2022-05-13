@@ -1,3 +1,13 @@
 remote_theme: daviddarnes/alembic@main
 plugins:
   - jekyll-remote-theme
+
+navigation_header:
+- title: Greetings!
+  url: /
+- title: About
+  url: /about.html
+- title: Index
+  url: /index.html
+- title: Search
+  url: /search/
