@@ -21,7 +21,7 @@ styles: true
   transistion: background-color 1s ease;
 }
 
-.typeset h2.austin-on-devops-programming-it:hover {
+.typeset #austin-on-devops-programming-it:hover, #austin-on-devops-programming-it:active, #austin-on-devops-programming-it:focus {
   background-color: linear-gradient(to right, grey 34%, grey 65%);
 }
 
