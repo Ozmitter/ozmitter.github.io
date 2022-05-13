@@ -2,17 +2,14 @@
 title: Greetings!
 feature_image: "https://ozmitter.github.io/bannerRE.jpg"
 feature_text: |
-  ##      Austin on DevOps, Programming, IT.
+  ##      Austin on <b>DevOps</b>, Programming, IT.
 ---
 
 Here you'll find some of my past projects and articles, with photography and other posts.
 They'll be centered around applied CS and maybe even some InfoSec!
 
-Site considered still _very_ much work in progress. 
+Site considered still _very_ much work in progress.<br>
 [05/12/2022] Using Jenkyll and alembic template.
-
-{% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
-{% include button.html text="I'm a test BUTTON" link="https://ozmitter.github.io" %}
 
 {% include figure.html image="/uploads/headshot.png" caption="Check out my photo" width=400 height=526%}
 
