@@ -12,9 +12,9 @@ styles: true
   border-width: thick;
   padding: 3%;
   
-  -webkit-animation: blink 3s infinite;
-  -moz-animation:    blink 3s infinite;
-  -ms-animation:     blink 3s infinite;
+  -webkit-animation: blink 2.5s infinite;
+  -moz-animation:    blink 2.5s infinite;
+  -ms-animation:     blink 2.5s infinite;
 }
 
 a {
@@ -40,6 +40,10 @@ a {
         0%   { border-color:#0fa32a; }
         50%  { border-color:green;}
         100% { border-color:#0fa32a; }
+}
+
+.typeset .footer {
+  background-color: #2f332d;
 }
 
 @import "alembic";
