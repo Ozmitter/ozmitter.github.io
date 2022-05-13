@@ -17,12 +17,27 @@ styles: true
   -ms-animation:     blink 2.5s infinite;
 }
 
-nav.list.item.a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  color: blue;
-  text-decoration: none;
-  transition: color .1s, background-color .1s;
+a {
+    color: #b39954;
+    text-decoration: none;
+    transition: color .1s, background-color .1s
+}
+
+a:hover,a:active,a:focus {
+    color: #dbb03d;
+    text-decoration: none
+}
+
+.typeset p a,.typeset li a {
+    background-image: linear-gradient(to bottom, transparent 50%, #05bf85 50%);
+    background-position: 0 93%;
+    background-repeat: repeat-x;
+    background-size: 100% 0.15rem;
+    text-shadow: 0.1rem 0 #fff,0.15rem 0 #fff,-0.1rem 0 #fff,-0.15rem 0 #fff
+}
+
+.typeset p a:hover,.typeset p a:active,.typeset p a:focus,.typeset li a:hover,.typeset li a:active,.typeset li a:focus {
+    background-image: linear-gradient(to bottom, transparent 50%, #b39954 50%)
 }
 
 // https://stackoverflow.com/questions/25669050/infinite-border-color-loop
