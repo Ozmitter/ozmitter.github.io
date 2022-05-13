@@ -11,3 +11,7 @@ navigation_header:
   url: /index.html
 - title: Search
   url: /search/
+
+navigation_footer:
+- title: © milozzo.com 2022
+  url: https://www.milozzo.com/
