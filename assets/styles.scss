@@ -3,7 +3,7 @@ title: false
 styles: true
 ---
 
-body {
+body.greetings {
   background: #d5e6d9;
 }
 
@@ -64,6 +64,10 @@ li.item--current a {
    0%   { border-color:#0fa32a; }
    50%  { border-color:green;}
    100% { border-color:#0fa32a; }
+}
+
+.feature {
+   border-top: 1px solid blue; 
 }
 
 button.button--nav {
