@@ -11,6 +11,6 @@ They'll be centered around applied CS and maybe even some InfoSec!
 Site considered still _very_ much work in progress.<br>
 [05/12/2022] Using Jenkyll and alembic template.
 
-{% include figure.html image="/uploads/headshot.png" caption="Check out my photo" width=400 height=526%}
+{% include figure.html image="/uploads/headshot.png" caption="Check out my photo" width=300 height=394 %}
 
 {% include nav-share.html %}
