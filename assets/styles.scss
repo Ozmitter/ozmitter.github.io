@@ -67,7 +67,8 @@ li.item--current a {
 }
 
 .feature {
-   border-top: 1px solid blue; 
+   border-top: 1px dotted blue; 
+   border-bottom: 1px dotted blue;
 }
 
 button.button--nav {
