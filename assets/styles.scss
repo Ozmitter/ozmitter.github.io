@@ -66,7 +66,7 @@ button.button--nav {
    color: blue;
 }
 
-button.button--nav:hover, button.button--nav:focus{
+button.button--nav:hover, button.button--nav:focus, button.button--nav:hover:focus{
    outline: solid 0.12rem black;
    outline-offset: -0.12rem;
    color: #0a367d;
