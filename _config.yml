@@ -8,9 +8,9 @@ navigation_header:
 - title: About
   url: /about.html
 - title: Index
-  url: /index.html
+  url: /categories.html
 - title: Search
-  url: /search/
+  url: /search.html
 
 navigation_footer:
 - title: © milozzo.com 2022
