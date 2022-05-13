@@ -16,13 +16,17 @@ styles: true
   -moz-animation:    blink 2.5s infinite;
   -ms-animation:     blink 2.5s infinite;
   
+  background-position: 0 0;
   transition: color 1s ease;
   transition: background 1s ease;
-  transistion: background-color 1s ease;
+  transition: background-position 0.5s ease-out 0s;
+
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, orange 50%);
 }
 
 .typeset #austin-on-devops-programming-it:hover, .typeset #austin-on-devops-programming-it:active, .typeset #austin-on-devops-programming-it:focus {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, orange 50%)
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, orange 50%);
+  background-position: -99.99% 0;
 }
 
 li.item--current a {
