@@ -15,6 +15,14 @@ styles: true
   -webkit-animation: blink 2.5s infinite;
   -moz-animation:    blink 2.5s infinite;
   -ms-animation:     blink 2.5s infinite;
+  
+  transition: color 1s ease;
+  transition: background 1s ease;
+  transistion: background-color 1s ease;
+}
+
+.typeset #austin-on-devops-programming-it:hover {
+  background-color: linear-gradient(to right, grey 34%, grey 65%);
 }
 
 li.item--current a {
