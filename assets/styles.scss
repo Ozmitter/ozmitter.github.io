@@ -17,8 +17,7 @@ styles: true
   -ms-animation:     blink 2.5s infinite;
   
   background-position: 0 0;
-  transition: color 1s ease;
-  transition: background 1s ease;
+  background-size: 200.22% auto;
   transition: background-position 0.5s ease-out 0s;
 
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, orange 50%);
