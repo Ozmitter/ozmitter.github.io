@@ -3,7 +3,7 @@ title: false
 styles: true
 ---
 
-https://stackoverflow.com/questions/29437100/css3-text-hover-effect-moving-background-like-a-progress-bar
+//https://stackoverflow.com/questions/29437100/css3-text-hover-effect-moving-background-like-a-progress-bar
 .typeset #austin-on-devops-programming-it {
   background-color: rgba(211, 219, 213, 0.9);
   border-radius: 10% / 50%;
@@ -21,12 +21,12 @@ https://stackoverflow.com/questions/29437100/css3-text-hover-effect-moving-backg
   background-size: 200.22% auto;
   transition: background-position 120s ease-out 0s;
 
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, green 50%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #3d7048 50%);
 }
 
 //
 .typeset #austin-on-devops-programming-it:hover {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, green 50%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #3d7048 50%);
   background-position: -99.99% 0;
 }
 
