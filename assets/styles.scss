@@ -17,6 +17,10 @@ body.layout-page, body.layout-post, body.layout-categories {
   text-shadow: none;
 }
 
+.nav.nav a {
+  text-shadow: none; 
+}
+
 //https://stackoverflow.com/questions/29437100/css3-text-hover-effect-moving-background-like-a-progress-bar
 .typeset #austin-on-devops-programming-it {
   background-color: rgba(211, 219, 213, 0.9);
