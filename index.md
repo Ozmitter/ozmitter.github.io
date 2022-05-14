@@ -11,7 +11,5 @@ They'll be centered around applied CS and maybe even some InfoSec!
 {% include nav-share.html %}
 {% include button.html text="Latest post" link="https://ozmitter.github.io" %}{% include button.html text="Contact form" link="https://ozmitter.github.io" %}
 
-{% include figure.html image="/uploads/headshot.png" caption="Check out my photo" width=300 height=394 %}
+{% include figure.html image="/uploads/headshot.png" caption="Austin" width=300 height=394 %}
 
-Site considered still _very_ much work in progress.<br>
-[05/12/2022] Using Jenkyll and alembic template.
