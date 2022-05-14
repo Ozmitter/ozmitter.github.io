@@ -2,4 +2,6 @@
 title: About
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+Started 05/12/2022 in hopes to document research, still _very_ much work in progress.
+
+Website made using | Jekyll https://jekyllrb.com/ | The alembic template and all its components https://github.com/daviddarnes/alembic | Particles.js  https://github.com/VincentGarreau/particles.js/ |
