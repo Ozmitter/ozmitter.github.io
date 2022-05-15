@@ -88,6 +88,8 @@ li.item--current a {
    100% { border-color:#0fa32a; }
 }
 
+// Header Border CSS
+
 header .feature {
    border-top: 3px dotted blue; 
 }
@@ -95,6 +97,8 @@ header .feature {
 body.search header, body.about header, body.index header {
    border-bottom: 3px dotted blue; 
 }
+
+// Button 
 
 button.button--nav {
    color: blue;
@@ -106,6 +110,8 @@ button.button--nav:hover, button.button--nav:focus, button.button--nav:hover:foc
    color: #0a367d;
 }
 
+// Footer 
+
 footer.footer {
   background: #0a0707;
   border-top: 3px dotted blue; 
@@ -113,6 +119,21 @@ footer.footer {
 
 footer.footer a {
   color: white;
+}
+
+// Custom
+
+#btnGH
+{
+  background: #333;
+}
+#btnHTB
+{
+  background: #111926;
+}
+#btnRL
+{
+  background: #8b5e1ee0;
 }
 
 @import "alembic";
