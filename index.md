@@ -9,7 +9,7 @@ Here you'll find some of my past projects and articles, with photography and oth
 They'll be centered around applied CS and maybe even some InfoSec!
 
 {% include nav-share.html %}
-{% include button.html text="Latest post" link="https://ozmitter.github.io" %}{% include button.html text="Contact form" link="https://ozmitter.github.io" %}
+{% include button.html text="Latest" link="https://ozmitter.github.io" color="#074a35" %}{% include button.html text="Contact" link="https://ozmitter.github.io"  color="#074a35" %}
 
 {% include figure.html image="/uploads/headshot.png" caption="Austin" width=300 height=394 %}
 
