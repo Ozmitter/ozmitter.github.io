@@ -21,6 +21,8 @@ navigation_header:
   url: /categories.html
 - title: Search
   url: /search.html
+- title: Contact
+  url: /contact.html
 
 navigation_footer:
 - title: © milozzo.com 2022
