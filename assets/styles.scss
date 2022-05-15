@@ -61,14 +61,14 @@ li.item--current a {
 }
 
 .item a {
-  color: #b39954;
+  color: #3970e4;
   text-decoration: none;
-  transition: color .1s, background-color .1s
+  transition: color .1s, background-color .1s;
 }
 
 .item a:hover,a:active,a:focus {
-  color: #dbb03d;
-  text-decoration: none
+  color: #0f3074;
+  text-decoration: none;
 }
 
 // https://stackoverflow.com/questions/25669050/infinite-border-color-loop
