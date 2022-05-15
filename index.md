@@ -8,7 +8,7 @@ feature_text: |
 Here you'll find some of my past projects and articles, with photography and other posts.
 They'll be centered around applied CS and maybe even some InfoSec!
 
-{% include button.html text="GitHub" link="https://ozmitter.github.io" color="#074a35" icon="https://ozmitter.github.io/uploads/GitHub-Mark-120px-plus.png"%}{% include button.html text="Hack The Box" link="https://ozmitter.github.io" color="#074a35" icon="https://ozmitter.github.io/uploads/download.png"%}{% include button.html text="Reading list" link="https://ozmitter.github.io" color="#074a35" %}
+{% include button.html text="GitHub" link="https://ozmitter.github.io" color="#074a35" icon="/uploads/GitHub-Mark-120px-plus.png"%}{% include button.html text="Hack The Box" link="https://ozmitter.github.io" color="#074a35" icon="/uploads/download.png"%}{% include button.html text="Reading list" link="https://ozmitter.github.io" color="#074a35" %}
 
 {% include button.html text="Latest" link="https://ozmitter.github.io" color="#074a35" %}{% include button.html text="Contact" link="https://ozmitter.github.io"  color="#074a35" %}
 
