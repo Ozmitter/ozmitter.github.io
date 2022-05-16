@@ -1,3 +1,21 @@
+var navHeaderC = new Boolean(false);
+
+function onNavHeaderClick() {
+	if(!navHeaderC)
+	{
+		let btnnav = document.getElementById("particles-js");
+		btnnav.visibility = "hidden";
+		navHeaderC = true;
+	}
+	
+	else if(navHeaderC)
+	{
+		let btnnav = document.getElementById("particles-js");
+		btnnav.visibility = "visible";
+		navHeaderC = false;
+	}
+}
+
 window.onload = function test() {
     console.log("TEST");
     let newHdiv = document.createElement("div");
@@ -17,7 +35,7 @@ window.onload = function test() {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#9c9994"
     },
     "shape": {
       "type": "polygon",
@@ -39,7 +57,7 @@ window.onload = function test() {
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 1,
+        "speed": 0.7,
         "opacity_min": 0.1,
         "sync": false
       }
