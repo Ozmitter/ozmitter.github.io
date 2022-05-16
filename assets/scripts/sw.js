@@ -7,12 +7,6 @@ sitemap: false
 const version = '{{ site.time | date: '%Y%m%d%H%M%S' }}';
 const cacheName = `static::${version}`;
 
-window.onload = function testaaa() {
-  
-   console.log("TEST");
-  
-}
-
 const buildContentBlob = () => {
   return [
     {%- for post in site.posts limit: 10 -%}
