@@ -24,23 +24,25 @@ window.onload = function test() {
     document.getElementsByClassName("container")[0].append(newHdiv);
     document.getElementsByClassName("container")[0].setAttribute("id","containerone");
 	
+    document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick()");
+	
     particlesJS("particles-js", 
 		{
   "particles": {
     "number": {
-      "value": 67,
+      "value": 42,
       "density": {
         "enable": true,
         "value_area": 400.8530152163807
       }
     },
     "color": {
-      "value": "#9c9994"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "polygon",
       "stroke": {
-        "width": 3,
+        "width": 2,
         "color": "#38b1d7"
       },
       "polygon": {
@@ -53,11 +55,11 @@ window.onload = function test() {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.4,
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 0.7,
+        "speed": 0.4,
         "opacity_min": 0.1,
         "sync": false
       }
