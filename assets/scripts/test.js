@@ -4,14 +4,14 @@ function onNavHeaderClick() {
 	if(navHeaderC == false )
 	{
 		var btnnav = document.getElementById("particles-js");
-		btnnav.visibility = "hidden";
+		btnnav.style.visibility = "hidden";
 		navHeaderC = true;
 	}
 	
 	else if(navHeaderC == true)
 	{
 		var btnnav = document.getElementById("particles-js");
-		btnnav.visibility = "visible";
+		btnnav.style.visibility = "visible";
 		navHeaderC = false;
 	}
 }
