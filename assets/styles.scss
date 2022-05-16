@@ -124,8 +124,13 @@ footer.footer a {
 // particles
 
 #containerone {
-  overflow: hidden;
-  max-height: 12%;
+  position: relative; 
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 @import "alembic";
