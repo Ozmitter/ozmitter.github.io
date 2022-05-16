@@ -115,5 +115,5 @@ window.onload = function test() {
     }
   },
   "retina_detect": true
-}
+} );
 }
