@@ -4,6 +4,7 @@ window.onload = function test() {
     newHdiv.setAttribute("id", "particles-js");
 	
     document.getElementsByClassName("container")[0].append(newHdiv);
+    document.getElementsByClassName("container")[0].setAttribute("id","containerone");
 	
     particlesJS("particles-js", 
 		{
