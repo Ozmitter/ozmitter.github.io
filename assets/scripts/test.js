@@ -3,14 +3,14 @@ var navHeaderC = new Boolean(false);
 function onNavHeaderClick() {
 	if(!navHeaderC)
 	{
-		let btnnav = document.getElementById("particles-js");
+		var btnnav = document.getElementById("particles-js");
 		btnnav.visibility = "hidden";
 		navHeaderC = true;
 	}
 	
 	else if(navHeaderC)
 	{
-		let btnnav = document.getElementById("particles-js");
+		var btnnav = document.getElementById("particles-js");
 		btnnav.visibility = "visible";
 		navHeaderC = false;
 	}
