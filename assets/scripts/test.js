@@ -1,14 +1,14 @@
 var navHeaderC = new Boolean(false);
 
 function onNavHeaderClick() {
-	if(!navHeaderC)
+	if(navHeaderC == false )
 	{
 		var btnnav = document.getElementById("particles-js");
 		btnnav.visibility = "hidden";
 		navHeaderC = true;
 	}
 	
-	else if(navHeaderC)
+	else if(navHeaderC == true)
 	{
 		var btnnav = document.getElementById("particles-js");
 		btnnav.visibility = "visible";
