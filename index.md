@@ -14,3 +14,4 @@ They'll be centered around applied CS and maybe even some InfoSec!
 
 {% include figure.html image="/uploads/headshot.png" caption="Austin" width=300 height=394 %}
 
+<script src="ozmitter.github.io/assets/test.js"></script>
