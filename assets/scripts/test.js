@@ -1,8 +1,3 @@
-(function(self) {
-  'use strict';
-  
-  window.onload = function test() {
-	console.log("TEST")  
-  }
-
+window.onload = function test() {
+    console.log("TEST")  
 }
