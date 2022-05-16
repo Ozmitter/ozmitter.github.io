@@ -124,7 +124,8 @@ footer.footer a {
 // particles
 
 #containerone {
-  position: relative; 
+  position: relative;
+  overflow: hidden;
 }
 
 #particles-js {
