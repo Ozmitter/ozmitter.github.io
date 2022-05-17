@@ -130,6 +130,9 @@ footer.footer a {
 #containerone {
   position: relative;
   overflow: hidden;
+  
+  transition: max-height 1s ease;
+  transition: max-width 1s ease;
 }
 
 #particles-js {
