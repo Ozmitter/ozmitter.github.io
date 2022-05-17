@@ -6,8 +6,6 @@ feature_text: |
 ---
 
 Here you'll find some of my past projects and articles, with photography and other posts.
-They'll be centered around applied CS and maybe even some InfoSec!
-
 Though this site isn't exactly a blog and is more for my own purposes, you can find the RSS
 feed below. Along with a contact form to email me via Formspree.
 
