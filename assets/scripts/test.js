@@ -3,15 +3,13 @@ var navHeaderC = new Boolean(false);
 function onNavHeaderClick() {
 	if(navHeaderC == false )
 	{
-		var btnnav = document.getElementById("particles-js");
-		btnnav.style.visibility = "hidden";
+		document.getElementById("particles-js").style.visibility = "hidden";
 		navHeaderC = true;
 	}
 	
 	else if(navHeaderC == true)
 	{
-		var btnnav = document.getElementById("particles-js");
-		btnnav.style.visibility = "visible";
+		document.getElementById("particles-js").style.visibility = "visible";
 		navHeaderC = false;
 	}
 }
