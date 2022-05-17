@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   
-title: Austin blog
+title: ozmitter.github.io
 description: Austin on DevOps, Programming, IT.
 author: Austin
 
@@ -25,5 +25,5 @@ navigation_header:
   url: /contact.html
 
 navigation_footer:
-- title: © milozzo.com 2022
+- title: DevOps, Programming, IT
   url: https://www.milozzo.com/
