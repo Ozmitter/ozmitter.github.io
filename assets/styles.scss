@@ -137,6 +137,9 @@ footer.footer a {
   width: 100%;
   position: absolute;
   pointer-events: none;
+  
+  transition: height 2s ease;
+  transition: width 2s ease;
 }
 
 @import "alembic";
