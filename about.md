@@ -6,19 +6,16 @@ Started 05/12/2022 in hopes to document research, still _very_ much work in prog
 
 
 Website made possible using the following
-<br>
+
 <b>Jekyll</b> - Ruby markdown site generator. 
-<br>
 <a href="https://jekyllrb.com"><b style="color: blue;">https://</b>jekyllrb.com/</a>
 
 
 The <b>Alembic</b> template
-<br>
 <a href="https://github.com/daviddarnes/alembic"><b style="color: blue;">https://</b>github.com/daviddarnes/alembic</a>
 
 
 <b>Particles.js</b> 
-<br>
 <a href="https://github.com/VincentGarreau/particles.js/"><b style="color: blue;">https://</b>github.com/VincentGarreau/particles.js/</a>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
