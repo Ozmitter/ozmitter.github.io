@@ -1,6 +1,6 @@
 ---
 title: Index
-layout: categories
+layout: blog
 excerpt: "Category index"
 aside: true
 ---
