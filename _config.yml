@@ -1,16 +1,29 @@
-remote_theme: daviddarnes/alembic@main
+
+exclude:
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - alembic-jekyll-theme.gemspec
+  - .jekyll-cache
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
-  
+  - jekyll-paginate
+
+remote_theme: daviddarnes/alembic@main
+
 title: ozmitter.github.io
 description: Austin on DevOps, Programming, IT.
 author: Austin
 
 email: "austinsecure000@protonmail.com"
-  
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"
+  
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
 
 navigation_header:
 - title: Greetings!
