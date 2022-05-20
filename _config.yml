@@ -25,6 +25,13 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: categories/page:num # jekyll-paginate > blog page
 
+collections:
+  posts:
+    title: Test # Needed for Siteleaf
+    output: true
+    description: "Testing thoughts and ideas" # The post list page content
+    feature_image: "https://picsum.photos/2560/600?image=866"
+
 navigation_header:
 - title: Greetings!
   url: /
