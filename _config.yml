@@ -27,7 +27,7 @@ author: Austin
 
 email: "austinsecure000@protonmail.com"
   
-paginate: 1 # jekyll-paginate > items per page
+paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 
 collections:
@@ -38,6 +38,16 @@ collections:
     feature_text: |
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
+    
+  t_posts:
+    title: Testing # Needed for Siteleaf
+    output: true
+    description: "Testing thoughts and ideas" # The post list page content
+    feature_text: |
+      Welcome to the blog
+    feature_image: "https://picsum.photos/2560/600?image=866"
+    
+  
     
 defaults:
   -
