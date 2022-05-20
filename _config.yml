@@ -26,11 +26,9 @@ description: Austin on DevOps, Programming, IT.
 author: Austin
 
 email: "austinsecure000@protonmail.com"
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
   
 paginate: 1 # jekyll-paginate > items per page
-paginate_path: posts/page:num # jekyll-paginate > blog page
+paginate_path: page:num # jekyll-paginate > blog page
 
 collections:
   posts:
