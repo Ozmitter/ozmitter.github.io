@@ -28,7 +28,7 @@ author: Austin
 email: "austinsecure000@protonmail.com"
   
 paginate: 1 # jekyll-paginate > items per page
-paginate_path: page:num # jekyll-paginate > blog page
+paginate_path: blog/page:num # jekyll-paginate > blog page
 
 collections:
   posts:
