@@ -65,10 +65,12 @@ navigation_header:
   url: /
 - title: About
   url: /about.html
-- title: Index
-  url: /categories.html
 - title: Search
   url: /search.html
+- title: Posts
+  url: /blog/
+- title: Index
+  url: /categories.html
 - title: Contact
   url: /contact.html
 
