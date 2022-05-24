@@ -36,15 +36,7 @@ collections:
     output: true
     description: "Testing thoughts and ideas" # The post list page content
     feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
-    
-    title: Testing # Needed for Siteleaf
-    output: true
-    description: "Testing thoughts and ideas" # The post list page content
-    feature_text: |
-      feature_text: |
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script><script src="https://ozmitter.github.io/assets/scripts/test.js"></script>
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script><script src="https://ozmitter.github.io/assets/scripts/test.js"></script>
     feature_image: "https://picsum.photos/2560/600?image=866"
     
   
