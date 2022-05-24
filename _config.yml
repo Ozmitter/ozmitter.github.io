@@ -68,7 +68,7 @@ navigation_header:
 - title: Search
   url: /search.html
 - title: Posts
-  url: /blog/
+  url: /blog/index.html
 - title: Index
   url: /categories.html
 - title: Contact
