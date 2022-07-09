@@ -133,6 +133,10 @@ footer.footer a {
   
   transition: max-height 1s ease;
   transition: max-width 1s ease;
+  
+  background: linear-gradient(to bottom right, #D6E6DA, #8D9890);
+  min-width: 100%;
+  padding-left: 15%;
 }
 
 #particles-js {
