@@ -15,7 +15,6 @@ function onNavHeaderClick() {
 }
 
 window.onload = function test() {
-    console.log("TEST");
     let newHdiv = document.createElement("div");
     newHdiv.setAttribute("id", "particles-js");
 	
@@ -28,7 +27,7 @@ window.onload = function test() {
 		{
   "particles": {
     "number": {
-      "value": 42,
+      "value": 32,
       "density": {
         "enable": true,
         "value_area": 400.8530152163807
