@@ -2,9 +2,9 @@ var navHeaderC = new Boolean(false);
 
 function onNavHeaderClick(pressedTab) {
 	
-	console.log(pressedTab[1]);
+	console.log(pressedTab.lastElementChild);
 	
-	if(!pressedTab[1].classList.contains('button--nav'))
+	if(!pressedTab.lastElementChild.classList.contains('button--nav'))
 	{
 		document.getElementById("particles-js").remove();	
 	}
