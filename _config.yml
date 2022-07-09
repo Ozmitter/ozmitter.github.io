@@ -27,14 +27,14 @@ author: Austin
 
 email: "austinsecure000@protonmail.com"
   
-paginate: 2 # jekyll-paginate > items per page
+paginate: 3 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 
 collections:
   posts:
-    title: Testing # Needed for Siteleaf
+    title: Research & Misc. # Needed for Siteleaf
     output: true
-    description: "Testing thoughts and ideas" # The post list page content
+    description: "Documenting various projects and events" # The post list page content
     feature_text: |
       <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script><script src="https://ozmitter.github.io/assets/scripts/test.js"></script>
     feature_image: "https://picsum.photos/2560/600?image=866"
@@ -61,7 +61,7 @@ defaults:
       layout: page # Set the default layout for pages
 
 navigation_header:
-- title: Greetings!
+- title: Home
   url: /
 - title: About
   url: /about.html
