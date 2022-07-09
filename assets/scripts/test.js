@@ -13,7 +13,7 @@ window.onload = function test() {
     	document.getElementsByClassName("container")[0].append(newHdiv);
     	document.getElementsByClassName("container")[0].setAttribute("id","containerone");
 	
-    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick(this.value)");
+    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick(this)");
 		
 	particlesJS("particles-js", 
 		{
