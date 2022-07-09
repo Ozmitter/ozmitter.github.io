@@ -1,5 +1,5 @@
 ---
-title: Greetings!
+title: Welcome!
 feature_image: "https://ozmitter.github.io/bannerRE.jpg"
 feature_text: |
   ##      Austin on <b>DevOps</b>, Programming, IT.
