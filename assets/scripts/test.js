@@ -1,17 +1,8 @@
 var navHeaderC = new Boolean(false);
 
-function onNavHeaderClick() {
-	if(navHeaderC == false )
-	{
-		document.getElementById("particles-js").style.visibility = "hidden";
-		navHeaderC = true;
-	}
-	
-	else if(navHeaderC == true)
-	{
-		document.getElementById("particles-js").style.visibility = "visible";
-		navHeaderC = false;
-	}
+function onNavHeaderClick(pressedTab) {
+	console.log(pressedTab);
+	document.getElementById("particles-js").remove();
 }
 
 window.onload = function test() {
@@ -22,7 +13,7 @@ window.onload = function test() {
     	document.getElementsByClassName("container")[0].append(newHdiv);
     	document.getElementsByClassName("container")[0].setAttribute("id","containerone");
 	
-    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick()");
+    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick(this.value)");
 		
 	particlesJS("particles-js", 
 		{
