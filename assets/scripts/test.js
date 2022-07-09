@@ -1,8 +1,13 @@
 var navHeaderC = new Boolean(false);
 
 function onNavHeaderClick(pressedTab) {
-	console.log(pressedTab);
-	document.getElementById("particles-js").remove();
+	
+	console.log(pressedTab[1]);
+	
+	if(!pressedTab[1].classList.contains('button--nav'))
+	{
+		document.getElementById("particles-js").remove();	
+	}
 }
 
 window.onload = function test() {
