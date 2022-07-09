@@ -4,7 +4,7 @@ function onNavHeaderClick(pressedTab) {
 	
 	console.log(pressedTab.lastElementChild);
 	
-	if(!pressedTab.lastElementChild.classList.contains('button--nav'))
+	if(!pressedTab.lastElementChild.classList.contains('button.button--nav'))
 	{
 		document.getElementById("particles-js").remove();	
 	}
