@@ -1,6 +1,7 @@
 var navHeaderC = new Boolean(false);
 
 function onNavHeaderClick(pressedTab) {
+	console.log(pressedTab);
 	document.getElementById("particles-js").remove();
 }
 
@@ -12,7 +13,7 @@ window.onload = function test() {
     	document.getElementsByClassName("container")[0].append(newHdiv);
     	document.getElementsByClassName("container")[0].setAttribute("id","containerone");
 	
-    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick()");
+    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick(this)");
 		
 	particlesJS("particles-js", 
 		{
