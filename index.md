@@ -12,7 +12,7 @@ feature_text: |
 
 #EG {
   color: gold;
-  transition: opacity 0.2s ease;
+  transition: opacity 3s ease;
   -webkit-text-stroke: 2px black;
   opacity: 0;
 }
