@@ -1,9 +1,22 @@
 ---
-title: Welcome!
+title: Welcome! <b id="EG">+100🐣</b>
 feature_image: "https://ozmitter.github.io/bannerRE.jpg"
 feature_text: |
-  ##      Austin on <b>DevOps</b>, Programming, IT.
+  ##      <b id="EG0">Austin</b> on <b id="EG1">DevOps</b>, <b id="EG2">Programming</b>, <b id="EG3">IT</b>.
 ---
+
+<style>
+#EG0, #EG1, #EG2, #EG3 {
+  transition: color 6s ease;
+} 
+
+#EG {
+  color: gold;
+  transition: opacity 0.2s ease;
+  -webkit-text-stroke: 2px black;
+  visibility: hidden;
+}
+</style>
 
 Here you'll find some of my past projects and articles, with photography and other posts.
 Though this site isn't exactly a blog and is more for my own purposes, you can find the RSS
