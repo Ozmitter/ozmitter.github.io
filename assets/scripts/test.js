@@ -11,14 +11,56 @@ function onNavHeaderClick(pressedTab) {
 }
 
 window.onload = function test() {
+
+	var oneClk = false;
+	const transTest = document.querySelector("#austin-on-devops-programming-it")
+
+	function EGClick()
+	{
+		document.getElementById("EG0").style.color = "#181c99";
+		document.getElementById("EG1").style.color = "#0f3074";
+		document.getElementById("EG2").style.color = "#FC6D27";
+		document.getElementById("EG3").style.color = "#FCA326";
+		
+		document.getElementById("EG").style.opacity = 1;
+		transTest.style.cursor = "default";
+		
+		oneClk = true;
+		transTest.onclick = null;
+	}
+
+	transTest.addEventListener('transitionend', () => {
+	  if(oneClk === false)
+	  {
+		console.log("TRANSITION END");
+		
+		transTest.style.cursor = "pointer";
+		transTest.onclick = "EGClick()";
+	  }
+	});
+
+	transTest.addEventListener('transitionrun', function() {
+	  transTest.style.cursor = "default";
+	  transTest.onclick = null;
+	});
+
+	transTest.addEventListener('transitionstart', function() {
+	  transTest.style.cursor = "default";
+	  transTest.onclick = null;
+	});
+
+	transTest.addEventListener('transitioncancel', function() {
+	  transTest.style.cursor = "default";
+	  transTest.onclick = null;
+	});
 	
 	let newHdiv = document.createElement("div");
-    	newHdiv.setAttribute("id", "particles-js");
+    newHdiv.setAttribute("id", "particles-js");
 	
-    	document.getElementsByClassName("container")[0].append(newHdiv);
-    	document.getElementsByClassName("container")[0].setAttribute("id","containerone");
+    document.getElementsByClassName("container")[0].append(newHdiv);
+    document.getElementsByClassName("container")[0].setAttribute("id","containerone");
 	
-    	document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick(this)");
+    document.getElementsByClassName("nav--header")[0].setAttribute("onclick","onNavHeaderClick(this)");
 		
 	particlesJS("particles-js", 
 		{
