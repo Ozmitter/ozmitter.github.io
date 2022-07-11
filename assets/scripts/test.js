@@ -30,7 +30,7 @@ window.onload = function test() {
 			document.getElementById("EG").style.opacity = 1;
 			document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
 			
-			document.getElementById("austin-on-devops-programming-it").style.backgroundImage = "linear-gradient(to bottom left, #4c564e, #000000)";
+			document.getElementById("containerone").style.backgroundImage = "linear-gradient(to bottom left, #4c564e, #000000)";
 				
 			oneClk = true;
 			document.getElementById("austin-on-devops-programming-it").onclick = null;
