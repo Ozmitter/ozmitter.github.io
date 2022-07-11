@@ -5,6 +5,7 @@ styles: true
 
 body.layout-page, body.layout-post, body.layout-categories, body.layout-blog {
   background: #d5e6d9;
+  transition: background 6s ease;
 }
 
 .typeset h1 {
@@ -16,6 +17,8 @@ body.layout-page, body.layout-post, body.layout-categories, body.layout-blog {
   
   color: black !important;
   font-family: 'Consolas' !important;
+  
+  transition: background-color 6s ease;
 }
 
 .article.article a {
