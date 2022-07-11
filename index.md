@@ -14,7 +14,7 @@ feature_text: |
   color: gold;
   transition: opacity 0.2s ease;
   -webkit-text-stroke: 2px black;
-  visibility: hidden;
+  opacity: 0;
 }
 </style>
 
