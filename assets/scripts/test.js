@@ -1,4 +1,5 @@
 var navHeaderC = new Boolean(false);
+var oneClk = false;
 
 function onNavHeaderClick(pressedTab) {
 	
@@ -9,25 +10,24 @@ function onNavHeaderClick(pressedTab) {
 		document.getElementById("particles-js").remove();	
 	}
 }
+	
+function EGClick()
+{
+	document.getElementById("EG0").style.color = "#181c99";
+	document.getElementById("EG1").style.color = "#0f3074";
+	document.getElementById("EG2").style.color = "#FC6D27";
+	document.getElementById("EG3").style.color = "#FCA326";
+		
+	document.getElementById("EG").style.opacity = 1;
+	document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
+		
+	oneClk = true;
+	document.getElementById("austin-on-devops-programming-it").onclick = null;
+}
 
 window.onload = function test() {
 
-	var oneClk = false;
 	const transTest = document.querySelector("#austin-on-devops-programming-it")
-
-	function EGClick()
-	{
-		document.getElementById("EG0").style.color = "#181c99";
-		document.getElementById("EG1").style.color = "#0f3074";
-		document.getElementById("EG2").style.color = "#FC6D27";
-		document.getElementById("EG3").style.color = "#FCA326";
-		
-		document.getElementById("EG").style.opacity = 1;
-		transTest.style.cursor = "default";
-		
-		oneClk = true;
-		transTest.onclick = null;
-	}
 
 	transTest.addEventListener('transitionend', () => {
 	  if(oneClk === false)
