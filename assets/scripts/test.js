@@ -33,7 +33,8 @@ window.onload = function test() {
 			// Dark mode
 			document.getElementById("containerone").style.backgroundImage = "linear-gradient(to bottom left, #4c564e, #000000)";
 			document.body.style.backgroundColor = "#2e302f8f";
-			document.getElementsByTagName("h1")[0].style.backgroundColor = "red";
+			document.getElementsByTagName("h1")[0].style.backgroundColor = "#2d342d3b";
+			document.querySelectorAll("p").forEach(element => { element.style.color = "black"});
 				
 			oneClk = true;
 			document.getElementById("austin-on-devops-programming-it").onclick = null;
