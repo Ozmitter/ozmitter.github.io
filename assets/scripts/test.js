@@ -11,20 +11,6 @@ function onNavHeaderClick(pressedTab) {
 	}
 }
 	
-function EGClick()
-{
-	document.getElementById("EG0").style.color = "#181c99";
-	document.getElementById("EG1").style.color = "#0f3074";
-	document.getElementById("EG2").style.color = "#FC6D27";
-	document.getElementById("EG3").style.color = "#FCA326";
-		
-	document.getElementById("EG").style.opacity = 1;
-	document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
-		
-	oneClk = true;
-	document.getElementById("austin-on-devops-programming-it").onclick = null;
-}
-
 window.onload = function test() {
 
 	const transTest = document.querySelector("#austin-on-devops-programming-it")
@@ -35,7 +21,18 @@ window.onload = function test() {
 		console.log("TRANSITION END");
 		
 		transTest.style.cursor = "pointer";
-		document.getElementById("austin-on-devops-programming-it").onclick = "EGClick()";
+		document.getElementById("austin-on-devops-programming-it").onclick = function() {
+			document.getElementById("EG0").style.color = "#181c99";
+			document.getElementById("EG1").style.color = "#0f3074";
+			document.getElementById("EG2").style.color = "#FC6D27";
+			document.getElementById("EG3").style.color = "#FCA326";
+				
+			document.getElementById("EG").style.opacity = 1;
+			document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
+				
+			oneClk = true;
+			document.getElementById("austin-on-devops-programming-it").onclick = null;
+		}
 	  }
 	});
 
