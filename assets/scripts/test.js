@@ -35,23 +35,23 @@ window.onload = function test() {
 		console.log("TRANSITION END");
 		
 		transTest.style.cursor = "pointer";
-		transTest.onclick = "EGClick()";
+		document.getElementById("austin-on-devops-programming-it").onclick = "EGClick()";
 	  }
 	});
 
 	transTest.addEventListener('transitionrun', function() {
 	  transTest.style.cursor = "default";
-	  transTest.onclick = null;
+	  document.getElementById("austin-on-devops-programming-it").onclick = null;
 	});
 
 	transTest.addEventListener('transitionstart', function() {
 	  transTest.style.cursor = "default";
-	  transTest.onclick = null;
+	  document.getElementById("austin-on-devops-programming-it").onclick = null;
 	});
 
 	transTest.addEventListener('transitioncancel', function() {
 	  transTest.style.cursor = "default";
-	  transTest.onclick = null;
+	  document.getElementById("austin-on-devops-programming-it").onclick = null;
 	});
 	
 	let newHdiv = document.createElement("div");
