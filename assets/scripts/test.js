@@ -30,13 +30,15 @@ window.onload = function test() {
 			document.getElementById("EG").style.opacity = 1;
 			document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
 			
+			// Dark mode
 			document.getElementById("containerone").style.backgroundImage = "linear-gradient(to bottom left, #4c564e, #000000)";
+			document.body.style.backgroundColor = "#2e302f8f";
+			document.getElementsByTagName("h1")[0].style.backgroundColor = "red";
 				
 			oneClk = true;
 			document.getElementById("austin-on-devops-programming-it").onclick = null;
 			
-			// 
-			
+			// Keep loaded button
 			document.getElementById("austin-on-devops-programming-it").style.backgroundImage = "linear-gradient(to right, #3d7048 50%, #3d7048 50%)";
 			
 			var css = '#austin-on-devops-programming-it:hover{ background-image: linear-gradient(to right, #3d7048 50%, #3d7048 50%); }';
