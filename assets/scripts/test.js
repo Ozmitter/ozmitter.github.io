@@ -32,6 +32,22 @@ window.onload = function test() {
 				
 			oneClk = true;
 			document.getElementById("austin-on-devops-programming-it").onclick = null;
+			
+			// 
+			
+			document.getElementById("austin-on-devops-programming-it").style.backgroundImage = "linear-gradient(to right, #3d7048 50%, #3d7048 50%)";
+			
+			var css = '#austin-on-devops-programming-it:hover{ background-image: linear-gradient(to right, #3d7048 50%, #3d7048 50%); }';
+			var style = document.createElement('style');
+
+			if (style.styleSheet) {
+				style.styleSheet.cssText = css;
+			} else {
+				style.appendChild(document.createTextNode(css));
+			}
+
+			document.getElementsByTagName('head')[0].appendChild(style);
+
 		}
 	  }
 	});
