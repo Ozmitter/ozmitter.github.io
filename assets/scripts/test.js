@@ -14,12 +14,12 @@ function onNavHeaderClick(pressedTab) {
 window.onload = function test() {
 
 	const transTest = document.querySelector("#austin-on-devops-programming-it")
-
-	transTest.addEventListener('transitionend', () => {
+	
+	if(transTest != null )
+	{
+		transTest.addEventListener('transitionend', () => {
 	  if(oneClk === false)
 	  {
-		console.log("TRANSITION END");
-		
 		transTest.style.cursor = "pointer";
 		document.getElementById("austin-on-devops-programming-it").onclick = function() {
 			document.getElementById("EG0").style.color = "#181c99";
@@ -66,6 +66,7 @@ window.onload = function test() {
 	  transTest.style.cursor = "default";
 	  document.getElementById("austin-on-devops-programming-it").onclick = null;
 	});
+	}
 	
 	let newHdiv = document.createElement("div");
     newHdiv.setAttribute("id", "particles-js");
