@@ -21,6 +21,10 @@ body.layout-page, body.layout-post, body.layout-categories, body.layout-blog {
   transition: background-color 6s ease;
 }
 
+.typeset p {
+  transition: color 6s ease;
+}
+
 .article.article a {
   text-shadow: none;
   background-image: none;
