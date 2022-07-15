@@ -26,8 +26,6 @@ window.onload = function test() {
 			document.getElementById("EG1").style.color = "#0f3074";
 			document.getElementById("EG2").style.color = "#FC6D27";
 			document.getElementById("EG3").style.color = "#FCA326";
-			
-			document.getElementsByClassName('item--current')[0].children[0].style.color = "#adadad";
 				
 			document.getElementById("EG").style.opacity = 1;
 			document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
