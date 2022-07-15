@@ -30,8 +30,6 @@ window.onload = function test() {
 			document.getElementById("EG").style.opacity = 1;
 			document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
 			
-			document.getElementsByClassName('item--current')[0].children[0].style.color = "#adadad";
-			
 			// Dark mode
 			document.getElementById("containerone").style.backgroundImage = "linear-gradient(to bottom left, #4c564e, #000000)";
 			document.body.style.backgroundColor = "#2e302f8f";
