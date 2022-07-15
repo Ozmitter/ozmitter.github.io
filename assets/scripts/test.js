@@ -14,45 +14,26 @@ function onNavHeaderClick(pressedTab) {
 window.onload = function test() {
 
 	const transTest = document.querySelector("#austin-on-devops-programming-it")
-	
-	if(transTest != null )
-	{
-		transTest.addEventListener('transitionend', () => {
+
+	transTest.addEventListener('transitionend', () => {
 	  if(oneClk === false)
 	  {
+		console.log("TRANSITION END");
+		
 		transTest.style.cursor = "pointer";
 		document.getElementById("austin-on-devops-programming-it").onclick = function() {
 			document.getElementById("EG0").style.color = "#181c99";
 			document.getElementById("EG1").style.color = "#0f3074";
 			document.getElementById("EG2").style.color = "#FC6D27";
 			document.getElementById("EG3").style.color = "#FCA326";
+			
+			document.getElementsByClassName('item--current')[0].children[0].style.color = "#adadad";
 				
 			document.getElementById("EG").style.opacity = 1;
 			document.getElementById("austin-on-devops-programming-it").style.cursor = "default";
-			
-			// Dark mode
-			document.getElementById("containerone").style.backgroundImage = "linear-gradient(to bottom left, #4c564e, #000000)";
-			document.body.style.backgroundColor = "#2e302f8f";
-			document.getElementsByTagName("h1")[0].style.backgroundColor = "#2d342d3b";
-			document.querySelectorAll("p").forEach(element => { element.style.color = "black"});
 				
 			oneClk = true;
 			document.getElementById("austin-on-devops-programming-it").onclick = null;
-			
-			// Keep loaded button
-			document.getElementById("austin-on-devops-programming-it").style.backgroundImage = "linear-gradient(to right, #3d7048 50%, #3d7048 50%)";
-			
-			var css = '#austin-on-devops-programming-it:hover{ background-image: linear-gradient(to right, #3d7048 50%, #3d7048 50%); }';
-			var style = document.createElement('style');
-
-			if (style.styleSheet) {
-				style.styleSheet.cssText = css;
-			} else {
-				style.appendChild(document.createTextNode(css));
-			}
-
-			document.getElementsByTagName('head')[0].appendChild(style);
-
 		}
 	  }
 	});
@@ -71,7 +52,6 @@ window.onload = function test() {
 	  transTest.style.cursor = "default";
 	  document.getElementById("austin-on-devops-programming-it").onclick = null;
 	});
-	}
 	
 	let newHdiv = document.createElement("div");
     newHdiv.setAttribute("id", "particles-js");
